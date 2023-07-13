@@ -69,6 +69,10 @@
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
+  $('#hour-5 .description').val(localStorage.getItem('hour-5'));
+  $('#hour-6 .description').val(localStorage.getItem('hour-6'));
+  $('#hour-7 .description').val(localStorage.getItem('hour-7'));
+  $('#hour-8 .description').val(localStorage.getItem('hour-8'));
   $('#hour-9 .description').val(localStorage.getItem('hour-9'));
   $('#hour-10 .description').val(localStorage.getItem('hour-10'));
   $('#hour-11 .description').val(localStorage.getItem('hour-11'));
